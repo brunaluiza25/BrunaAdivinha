@@ -1,0 +1,100 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: aliceblue;
+}
+
+body {
+   font-family: "Poppins", sans-serif;
+   font-size: 20px;
+   background-color: #dfc0f1;
+}
+
+h1 {
+   font-family: 'Rancho', cursive;
+   font-size: 3.5rem;
+   font-weight: 400;
+}
+
+.main {
+   color: #fff;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+ }
+
+.game {
+   box-shadow: 10px 5px 15px rgb(123, 6, 177);
+}
+
+.game,
+form {
+   background-color: #6c0197;
+   padding: 1.8rem;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.game>div {
+   padding: 0.5rem;
+}
+
+.form input,
+.form label,
+.form button {
+   margin-top: 1rem;
+}
+
+.form input,
+.form button {
+   background-color: #000000;
+   font-size: inherit;
+   font-family: inherit;
+   padding: 0.5rem;
+   color: #b351ec;
+   transition: background-color 0.3s, color 0.3s;
+}
+
+/*efeitos no botão*/
+.form button:hover {
+   background-color: #ffffff;
+   color: #fff;
+   filter: brightness(110%);
+}
+
+.form button:active {
+   background-color: #c77df8;
+   color: #fff;
+   filter: brightness(150%);
+}
+
+.form button {
+   cursor: pointer;
+   color: #b351ec;
+}
+
+.form button:hover {
+   filter: opacity(0.8);
+}
+
+header {
+   background-color: #6c0197;
+   text-align: center;
+   padding: 1rem;
+   color: #fff;
+}
+
+.footer {
+   background-color: #6c0197;
+         text-align: center;
+         padding: 1rem;
+         color: #fff;
+
+}
+
